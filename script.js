@@ -4,4 +4,4 @@ const email = document.getElementById('email')
 const password = document.getElementById('password')
 const passwordConfirmation = document.getElementById('passwordConfirmation')
 
-form.addEventListener("submit", (e) +
+form.addEventListener("submit", (e) 
