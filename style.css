@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -29,7 +29,7 @@ body {
 }
 
 .form {
-  padding: 20px;  
+  padding: 20px;
 }
 
 .form-control {
@@ -44,7 +44,7 @@ body {
 }
 
 .form-control input {
-  border: 2px solid;
+  border: 2px solid #f0f0f0;
   display: block;
   border-radius: 10px;
   font-size: 14px;
@@ -76,8 +76,8 @@ body {
   padding: 10px;
 }
 
-/* Error and Sucess */
-.form-control.sucess input {
+/* Error and Success */
+.form-control.success input {
   border-color: #2ecc71;
 }
 
@@ -85,12 +85,12 @@ body {
   border-color: #e74c3c;
 }
 
-.form-control.sucess i.fa-check-circle {
+.form-control.success i.fa-check-circle {
   color: #2ecc71;
   visibility: visible;
 }
 
-.form-control.error i.fa-circle-exclamation {
+.form-control.error i.fa-exclamation-circle {
   color: #e74c3c;
   visibility: visible;
 }
